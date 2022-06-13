@@ -1,0 +1,5 @@
+{
+    "description": "This is bitcoin symbol",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRY76EySuNZT2nDfKitBf8Nc1BHjfzMwBocV32sBWtqsg/bitcoin.jpg",
+    "name": "Bitcon"
+}

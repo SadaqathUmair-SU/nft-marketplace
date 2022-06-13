@@ -1,0 +1,5 @@
+{
+    "description": "This is a Cat",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRY76EySuNZT2nDfKitBf8Nc1BHjfzMwBocV32sBWtqsg/cat.png",
+    "name": "Cat"
+}
