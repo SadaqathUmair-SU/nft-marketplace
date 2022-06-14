@@ -48,6 +48,8 @@ contract Collection is ERC721URIStorage, Ownable {
 
         return newItemId;
     }
+    
+    //Below function is to withdraw the money which is earned by selling NFT's. I've used onlyOwner modifier to make sure that only the person who owns the contract can take out money from it.
     function withdrawMoney() external onlyOwner{
         address payable to = payable(msg.sender);
         to.transfer(address(this).balance);
