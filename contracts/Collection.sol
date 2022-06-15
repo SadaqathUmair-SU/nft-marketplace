@@ -28,6 +28,8 @@ contract Collection is ERC721URIStorage, Ownable {
     function setMaxSupply(uint256 max_supply) external onlyOwner{
         MAX_SUPPLY = max_supply;
     }
+    
+    //function for minting NFT
     function mintNFT(string memory tokenURI)
         payable
         external
