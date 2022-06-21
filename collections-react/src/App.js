@@ -98,8 +98,7 @@ function App() {
         <>
          <div className="container">
            <br/>
-          <h1 className="h1"> Polygon Assessment By Sadaqath</h1>
-          <h2>NFT Marketplace</h2>
+          <h1 className="h1"> NFT Marketplace</h1>
           <p>Buy an NFT from our marketplace.</p>
   
           {isWalletInstalled ? (
@@ -116,9 +115,8 @@ function App() {
         <>
             <div className="container">
             <br/>
-            <h1 className="h1"> Polygon Assessment By Sadaqath</h1>
+            <h1 className="h1"> NFT Marketplace</h1>
           
-             <h2>NFT Marketplace</h2>
                 {data.map((item, index) => (
                     <div className="imgDiv">
                         <img
