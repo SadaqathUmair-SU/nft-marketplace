@@ -98,7 +98,7 @@ function App() {
         <>
          <div className="container">
            <br/>
-          <h1 className="h1"> NFT Marketplace</h1>
+          <h1 className="h1">Metaverse</h1>
           <p>Buy an NFT from our marketplace.</p>
   
           {isWalletInstalled ? (
@@ -115,7 +115,7 @@ function App() {
         <>
             <div className="container">
             <br/>
-            <h1 className="h1"> NFT Marketplace</h1>
+            <h1 className="h1">Metaverse</h1>
           
                 {data.map((item, index) => (
                     <div className="imgDiv">
